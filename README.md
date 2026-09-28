@@ -2,10 +2,12 @@
 
 A harness for research that runs itself, and cannot quietly lie about what it found.
 
-The three projects in this repository are built on it: `pocketpolicy` (shrinking robot
-foundation policies onto microcontrollers), `wormstage` (compiling a nematode connectome at
-every developmental stage into a snake-robot controller) and `myoedge` (on-device EMG decoding
-for low-cost prosthetic hands). Each is a graph of pipeline stages; agents propose which
+Three projects are built on it: [pocketpolicy](https://github.com/azrabano23/pocketpolicy)
+(shrinking robot foundation policies onto microcontrollers),
+[wormstage](https://github.com/azrabano23/wormstage) (compiling a nematode connectome at every
+developmental stage into a snake-robot controller) and
+[myoedge](https://github.com/azrabano23/myoedge) (on-device EMG decoding for low-cost prosthetic
+hands). Each is a graph of pipeline stages; agents propose which
 experiments to run; gates decide which results count; a ledger records all of it.
 
 ```
